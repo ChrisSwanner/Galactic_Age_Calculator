@@ -55,6 +55,6 @@ describe ("life expectancy on mercury",function(){
     let ageCalc = new AgeCalc();
     let age = 20;
     let planet = "Mercury";
-    expect(ageCalc.lifeExpectancy(age, planet)).toEqual(237 + "more years to go on" + planet);
+    expect(ageCalc.lifeExpectancy(age, planet)).toEqual(237 + " more years");
   })
 })

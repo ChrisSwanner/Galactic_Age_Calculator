@@ -1,0 +1,51 @@
+@keyframes bgcolor {
+    0% {
+        background-color: #1c253c
+    }
+
+    30% {
+        background-color: #1f3e5a
+    }
+
+    60% {
+        background-color: #145051
+    }
+
+    90% {
+        background-color: #281c3c
+    }
+
+    100% {
+        background-color: #3c1c31
+    }
+}
+
+body {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    color: white;
+    text-align: center;
+}
+input, button, option, select {
+  color: black;
+  margin-top: 20px;
+}
+hr {
+  height: 30px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+hr:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}

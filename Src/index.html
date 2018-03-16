@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title></title>
+  </head>
+  <body>
+    <h1>Galactic Age Calculator</h1>
+    <form id="ageInSecondsForm">
+      <h1>Find Your Age In Seconds!</h1>
+      <label>Input your birthday</label>
+      <br>
+      <input id="birthday" type="date">
+      <br>
+      <button type="submit" name="button">Submit</button>
+    </form>
+    <h4 id="secondsDisplay"></h4>
+    <hr>
+    <hr>
+    <form id="planetForm">
+      <h3>Please Select Planet</h3>
+      <select id="planet">
+        <option value="Mercury">Mercury</option>
+        <option value="Venus">Venus</option>
+        <option value="Mars">Mars</option>
+        <option value="Jupiter">Jupiter</option>
+      </select>
+      <br>
+      <label for="age">Input your age</label>
+      <br>
+      <input id="age" type="number">
+      <button type="submit" name="button">Submit</button>
+    </form>
+    <h1 id="ageOnSelectedPlanet"></h1>
+    <h2 id="planetLifeExpectancy"></h2>
+
+  </body>
+</html>
