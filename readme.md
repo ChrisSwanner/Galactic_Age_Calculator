@@ -14,9 +14,9 @@ GitHub repo: https://github.com/ChrisSwanner/GalacticAgeCalc
 | :-------------  | :------------- | :------------- |
 | User enters their age and program returns their age in seconds | Input: 20 years old | Output: 630720000 Seconds  |
 | User enters their age and program returns their age in Mercurian Solar years | Input: 20 | Output: 83 |
-| User enters their age and program returns their age in Venusian Solar years | Input: 20 | Output: 47 |
-| User enters their age and program returns their age in Martian Solar years | Input: 20 | Output: 15 |
-| User enters their age and program returns their age in Jovian Solar years | Input: 20 | Output: 2 |
+| User enters their age and program returns their age in Venusian Solar years | Input: 20 | Output: 32 |
+| User enters their age and program returns their age in Martian Solar years | Input: 20 | Output: 37 |
+| User enters their age and program returns their age in Jovian Solar years | Input: 20 | Output: 237 |
 
 
 
