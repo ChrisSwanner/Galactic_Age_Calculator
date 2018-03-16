@@ -22,4 +22,25 @@ $(document).ready(function(){
     console.log(ageCalc.getCurrentDate());
     console.log(fullDate);
   })
+  $('#planetForm').submit(function(event){
+    event.preventDefault();
+    let ageCalc = new AgeCalc();
+
+    let selectedPlanet = $('#planet').val();
+    let userAge = $('#age').val();
+    if (selectedPlanet === "Mercury") {
+      $('#ageOnSelectedPlanet').text("Your age on " + selectedPlanet + " is " + ageCalc.ageOnMercury(userAge));
+      $('#planetLifeExpectancy').text("Your expected life expectancy on " + selectedPlanet + " is " + ageCalc.lifeExpectancy(userAge, selectedPlanet));
+    } else if (selectedPlanet === "Venus") {
+      $('#ageOnSelectedPlanet').text("Your age on " + selectedPlanet + " is " + ageCalc.ageOnVenus(userAge));
+        $('#planetLifeExpectancy').text("Your expected life expectancy on " + selectedPlanet + " is " + ageCalc.lifeExpectancy(userAge, selectedPlanet));
+
+    } else if (selectedPlanet === "Mars") {
+      $('#ageOnSelectedPlanet').text("Your age on " + selectedPlanet + " is " + ageCalc.ageOnMars(userAge));
+        $('#planetLifeExpectancy').text("Your expected life expectancy on " + selectedPlanet + " is " + ageCalc.lifeExpectancy(userAge, selectedPlanet));
+    } else if (selectedPlanet === "Jupiter") {
+      $('#ageOnSelectedPlanet').text("Your age on " + selectedPlanet + " is " + ageCalc.ageOnJupiter(userAge));
+        $('#planetLifeExpectancy').text("Your expected life expectancy on " + selectedPlanet + " is " + ageCalc.lifeExpectancy(userAge, selectedPlanet));
+    }
+  })
 })
