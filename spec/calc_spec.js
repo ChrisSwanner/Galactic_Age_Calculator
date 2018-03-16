@@ -26,3 +26,35 @@ describe ("age on mercury",function(){
     expect(ageCalc.ageOnMercury(20)).toEqual(83);
   })
 })
+describe ("age on venus",function(){
+  it("should return the corret age if the user was living on venus", function(){
+    let ageCalc = new AgeCalc();
+
+    expect(ageCalc.ageOnVenus(20)).toEqual(32);
+  })
+})
+
+describe ("age on mars",function(){
+  it("should return the corret age if the user was living on mars", function(){
+    let ageCalc = new AgeCalc();
+
+    expect(ageCalc.ageOnMars(20)).toEqual(37);
+  })
+})
+
+describe ("age on jupiter",function(){
+  it("should return the corret age if the user was living on jupiter", function(){
+    let ageCalc = new AgeCalc();
+
+    expect(ageCalc.ageOnJupiter(20)).toEqual(237);
+  })
+})
+
+describe ("life expectancy on mercury",function(){
+  it("should calculate how long a user has left to live on mercury", function(){
+    let ageCalc = new AgeCalc();
+    let age = 20;
+    let planet = "Mercury";
+    expect(ageCalc.lifeExpectancy(age, planet)).toEqual(237 + "more years to go on" + planet);
+  })
+})
