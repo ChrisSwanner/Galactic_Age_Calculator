@@ -21,14 +21,23 @@ GitHub repo: https://github.com/ChrisSwanner/GalacticAgeCalc
 
 
 ## Setup/Installation Requirements
-
+# Node.js is required to use this program.
+1. Clone GitHub Repo.
+2. Run npm install in command line.
+3. run npm run build in command line.
+4. run npm run start in command line, it will open a browser window with the site.
 
 
 ## Known Bugs
 * No known bugs at this time.
 
 ## Technologies Used
-
+Node.js
+Karma
+Jasmine
+Javascript
+Html
+css
 
 
 ## Support and contact details
